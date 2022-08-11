@@ -165,7 +165,7 @@ contract Web3RSVP {
 	}
 
 	// confirm multiple attendees at the same time
-	function confrimAllAttendees(bytes32 eventId) external {
+	function confirmAllAttendees(bytes32 eventId) external {
 
 		// same as above
 		CreateEvent memory myEvent = idToEvent[eventId];
