@@ -136,7 +136,7 @@ contract Web3RSVP {
 			}
 		}
 
-		// the two values must match (same address)
+		// the two values must match (same wallet address)
 		require(rsvpConfirm == attendee, "NO RSVP TO CONFIRM");
 
 		// the attendee must not have already be confirmed as checked-in (and thus issued a deposit refund)
